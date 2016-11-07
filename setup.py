@@ -43,11 +43,11 @@ LFLAGS = {
 }
 
 LIBRARIES = {
-    'darwin': ['icui18n', 'icuuc', 'icudata', 'icule'],
-    'linux': ['icui18n', 'icuuc', 'icudata', 'icule'],
-    'freebsd': ['icui18n', 'icuuc', 'icudata', 'icule'],
-    'win32': ['icuin', 'icuuc', 'icudt', 'icule'],
-    'sunos5': ['icui18n', 'icuuc', 'icudata', 'icule'],
+    'darwin': ['icui18n', 'icuuc', 'icudata'],
+    'linux': ['icui18n', 'icuuc', 'icudata'],
+    'freebsd': ['icui18n', 'icuuc', 'icudata'],
+    'win32': ['icuin', 'icuuc', 'icudt'],
+    'sunos5': ['icui18n', 'icuuc', 'icudata'],
 }
 
 platform = sys.platform
